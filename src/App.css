@@ -1,0 +1,96 @@
+body{
+  background-color: rgba(0, 0, 0, 0.74);
+}
+.container{
+  text-align: center;
+  height: 100vh;
+  width: inherit;
+  color: white;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.image{
+  height: 150px;
+  width: 150x;
+  animation: ease 10s infinite rot;
+}
+@keyframes rot{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.to-do-container{
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.todo{
+  height: 40px;
+  width: 500px;
+  margin: 20px;
+  border: 5px solid orange;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.616);
+  font-size: 20px;
+}
+.add-todo{
+  height: 50px;
+  width: 100px;
+  border: 5px solid orange;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.616);
+  font-size: 15px;
+}
+div.task-container{
+  padding: 0;
+  margin-left: 40px;
+  width: 510px;
+  height: auto;
+  border: 5px solid orange;
+  border-radius: 10px;
+}
+li{
+  margin-left: -35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.list:hover{
+  border: 3px solid purple;
+  border-radius: 5px;
+}
+.title-div{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: inherit;
+  width: inherit;
+}
+.delete-button{
+  height: 40px;
+  width: 90px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.delete-button:hover{
+  transition: ease-in;
+  border: 2px solid black;
+}
+
+
